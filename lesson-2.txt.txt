@@ -1,0 +1,13 @@
+1. Giải thích các câu lệnh 
+- Git init: Khởi tạo thư mục quản lý của Git
+- Git add (filename) : Thêm 1 file vào staging 
+- Git add . : Thêm tất cả file vào staging
+- Git commit -m "Message" : Lưu lại những thay đổi với note 
+2. 
+a) 3 file vào vùng working directory 
+b) chạy lệnh khởi tạo 
+c) commit nhưng chưa có gì thayđổi 
+d) file 1 vào staging 
+e) commit file 1 vào repo 
+f) commit nhưgn ko có gì thayđổi
+````````File 1 vào repo, file 2&3 vẫnở vùng working directoty
