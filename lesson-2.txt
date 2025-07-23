@@ -11,4 +11,3 @@ d) file 1 vào staging
 e) commit file 1 vào repo 
 f) commit nhưgn ko có gì thayđổi
 ````````File 1 vào repo, file 2&3 vẫnở vùng working directoty
-em quên commit convention aaaa để em đẩy lại 
