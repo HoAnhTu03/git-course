@@ -1,0 +1,24 @@
+Câu lệnh: git commit --amend: Mở text editor Vim để sửa thủ công lại message commit gần nhất 
+Câu lệnh: git commit --amend -m "<message>": Trực tiếp thay commit message gần nhất bằng "message" mới luôn, nhập nội dung chỉnh sửa vào "<message>"
+Câu lệnh: git store --staged <file>: Đưa file từ vùng staging về vùng working directory 
+Câu lệnh git reset HEAD~1: Gỡ commit gần nhất, các file thay đổi sẽ từ vùng repo về working directory
+
+Bài 2: 
+- Chạy lệnh: git init 
+- Chạy lệnh: git commit -m"init project":chưa có sự thay đổi nào
+- Chạy lệnh: git commit -m"add file": Commit thứ 1, file1 đã dc push lên repo
+- Chạy lệnh: git restore --staged file2: file2 đã dc đưa từ staging về working directory 
+- Chạy lệnh git commit -m"add all files": Commit thứ 2, file 3 đã dc push lên repo
+- Chạy lệnh git reset HEAD~1: Gỡ commit thứ 2, file 3 về working directory
+- Working directory: file 2, file 3 
+- Staging Area : Empty
+- Repository: file 1
+
+Bài 3: 
+- Chạy lệnh: git init 
+- Working directory: file1.txt, oops/file3.txt, .gitignore 
+- Staging Area : 
+- Repository: file2.txt
+
+
+
