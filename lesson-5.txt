@@ -1,0 +1,6 @@
+1. Cấu trúc DOM cơ bản của 1 trang web bao gồm các thẻ : 
+	- <html>, <head>, <meta>, <title>, <style>
+	- <body>, <header>, <nav>, <section>, <footer> 
+2. Cấu trúc HTML của 1 table : 
+	- <table>, <thead> <tr>, <th>, <tbody>, <tr>,<td>
+
